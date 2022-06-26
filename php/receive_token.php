@@ -4,7 +4,8 @@ header('Access-Control-Allow-Methods: GET, POST');
 header("Access-Control-Allow-Headers: X-Requested-With");
 header('Content-Type: application/json; charset=utf-8');
 
-$secret_key = "sk_test_bd47782d-c190-42c0-8394-274b302fa861";
+//$secret_key = "sk_test_bd47782d-c190-42c0-8394-274b302fa861";
+include 'setting.php';
 $card_token = $_POST['token'];
 
   /*

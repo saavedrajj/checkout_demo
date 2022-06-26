@@ -31,7 +31,8 @@ var cardTokens = document.getElementById('card-tokens');
  */
 function initializeFrames() {
   Frames.init({
-    publicKey: "pk_test_8915ea5f-fa07-491e-97e4-b7fb248632f8",
+    /*publicKey: "pk_test_8915ea5f-fa07-491e-97e4-b7fb248632f8",*/
+    publicKey: "pk_test_4296fd52-efba-4a38-b6ce-cf0d93639d8a",
     localization: "ES-ES"
   });
 }
