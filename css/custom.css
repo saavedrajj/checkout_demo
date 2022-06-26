@@ -1,0 +1,12 @@
+/* COLOUR PALETTE
+    #323416 dark green
+    #8C9E6E light green
+    #FFFFFD white
+*/
+
+.bg { background-color: #8C9E6E!important; color: #323416 !important; }
+.bg-form { background-color: #FFFFFD!important; }
+.logo { color: #FFFFFD !important; }
+.h4, h6, .text-primary, .text-muted  { color: #323416 !important; }
+.bg-primary { background-color: #323416  !important; }
+.list-inline-item a { color: #FFFFFD !important; }

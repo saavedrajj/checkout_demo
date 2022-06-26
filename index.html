@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout Frames v2: Single Frame</title>
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">  
+</head>
+
+<body class="bg">
+  <div class="container">
+    <main >
+      <div class="py-5 text-center" >
+        <img class="d-block mx-auto mb-4" src="assets/img/logo.png" alt="" width="104" height="90">
+        <h2 class="logo">Toys online</h2>
+      </div>
+      <div class="row g-5 bg-form">
+        <div class="col-md-5 col-lg-4 order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Your cart</span>
+            <span class="badge bg-primary rounded-pill">1</span>
+          </h4>
+          <ul class="list-group mb-3" >
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Xwing</h6>
+                <small class="text-muted" > Rebel Alliance starfighter</small>
+              </div>
+              <span class="text-muted">$10</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between text-primary">
+              <span>Total (USD)</span>
+              <strong>$10</strong>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Payment</h4>
+          <form id="payment-form" method="POST" action="https://merchant.com/charge-card">
+            <div class="card-frame"></div>
+            <div class="row gy-3">
+            </div>
+            <hr class="my-4">
+            <button id="pay-button" disabled>
+              PAY USD 10.00
+            </button>
+            <div id="card-tokens" style="display: flex; flex-direction: column;">
+            </div>
+            <p class="error-message"></p>
+            <p class="success-payment-message"></p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2022 Toys online</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script src="https://cdn.checkout.com/js/framesv2.min.js"></script>
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
