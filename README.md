@@ -1,6 +1,14 @@
 # Checkout.com - Implementation Engineering Tech Test
 
-The `server_info.php` PHP script periodically calls rippled’s server_info command and records the sequence number of the latest validated ledger along with the current time and record this data in the file `data.txt`. Then, uses this data to construct a plot (time on the x-axis, sequence number on the y-axis) with the Chart.js Javascript charting library that visualizes how frequently the ledger sequence is incremented every 5 seconds. 
+## Coding task
+
+You Are a merchant selling T-shirts in the UK and Germany. You currently process card
+payments, so you want a payment solution that allows you to capture the card details on your
+checkout page securely while maintaining PCI Compliance. You also heard of a popular
+German bank transfer payment method that you are interested in offering. Based on your
+platform’s analytics, most of the customers visiting your website are using an Android mobile
+phone, so you are considering options to allow a faster checkout experience there, perhaps by
+also providing some kind of one-touch payment.
 
 ## Getting Started
 
@@ -13,7 +21,7 @@ You need to be running PHP 5.4+ on a web server.
 
 ### Installation
 
-* [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository in a folder of your local webserver
+* [Clone](https://github.com/saavedrajj/checkout_demo) this repository in a folder of your local webserver
 
 
 ### Running the code
