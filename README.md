@@ -31,10 +31,11 @@ This script is intented for using in a web browser.
 * Make sure your webserver is running as a service.
 * Open the folder `checkout_demo`.
 * Select the `index.html` file.
-* Make the payment with the following test credit card:
+* Make the first payment with the following test credit card:
     - Credit card number: 4242424242424242
     - MM/YY: Any future date
     - CVV: 100 (Any other CVV will result on a failed transaction)
+* Make the second payment using the stored card of the previous tranasaction selecting the radio button "Use you XXXX ending in XXXX"
 
 ## Built With
 * [Javascript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) - JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard..

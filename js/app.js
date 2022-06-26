@@ -242,7 +242,7 @@ function setNewCardCheckbox() {
   label.for = 'use-new-card';
 
   const labelText = document.createElement('span');
-  labelText.innerText = 'Use new card';
+  labelText.innerText = ' Use new card';
 
   label.appendChild(
       radio
@@ -277,7 +277,7 @@ function setIdCheckboxes(source) {
   label.for = 'use-card-' + source.id;
 
   const labelText = document.createElement('span');
-  labelText.innerText = 'Use your ' + source.scheme + ' ending in ' + source.last4;
+  labelText.innerText = ' Use your ' + source.scheme + ' ending in ' + source.last4;
 
   label.appendChild(
       radio

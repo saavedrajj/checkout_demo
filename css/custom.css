@@ -10,3 +10,4 @@
 .h4, h6, .text-primary, .text-muted  { color: #323416 !important; }
 .bg-primary { background-color: #323416  !important; }
 .list-inline-item a { color: #FFFFFD !important; }
+.card-tokens {display: flex; flex-direction: column;}
