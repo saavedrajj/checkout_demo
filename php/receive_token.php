@@ -34,7 +34,16 @@ curl_setopt_array($curl, array(
     },
     "amount": 1000,
     "currency": "USD",
-    "reference": "request-01"
+    "reference": "request-01",
+    "3ds": {
+      "enabled": true,
+      "attempt_n3d": true,
+      "eci": "05",
+      "cryptogram": "AgAAAAAAAIR8CQrXcIhbQAAAAAA=",
+      "xid": "MDAwMDAwMDAwMDAwMDAwMzIyNzY=",
+      "version": "2.0.1"
+    }
+    
 }',
   CURLOPT_HTTPHEADER => array(
     "Authorization: " . $secret_key . "",
